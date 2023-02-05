@@ -1,0 +1,23 @@
+{
+    "chain_name": "planq",
+    "api": "https://api.planq.crxa.my.id/",
+    "rpc": "https://rpc.planq.crxa.my.id/",
+    "sdk_version": "0.46.3",
+    "coin_type": "60",
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "plq",
+    "logo": "/logos/planq.jpg",
+    "assets": [{
+        "base": "aplanq",
+        "symbol": "planq",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/planq.jpg"
+    }],
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_price_step": {
+      "low": 20000000000,
+      "average": 25000000000,
+      "high": 40000000000
+    }
+}

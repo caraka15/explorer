@@ -1,0 +1,17 @@
+{
+    "chain_name": "human",
+    "coingecko": "",
+    "api": "https://api.human.crxa.my.id",
+    "rpc": "https://rpc.human.crxa.my.id",
+    "sdk_version": "v0.46.3",
+    "coin_type": "118",
+    "min_tx_fee": "200",
+    "addr_prefix": "human",
+    "logo": "/logos/human.svg",
+    "assets": [{
+        "base": "uheart",
+        "symbol": "HEART",
+        "exponent": "6",
+        "logo": "/logos/human.svg"
+    }]
+}
