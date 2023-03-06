@@ -1,5 +1,5 @@
 {
-  "chain_name": "odin",
+  "chain_name": "odin-testnet",
   "api": "https://node.odin-freya-website.odinprotocol.io/a/api",
   "rpc": ["https://node.odin-freya-website.odinprotocol.io/a"],
   "snapshot_provider": "",

@@ -1,5 +1,5 @@
 {
-    "chain_name": "quicksilver",
+    "chain_name": "quicksilver-testnet",
     "coingecko": "",
     "api": ["https://quicksilver-testnet-api.polkachu.com"],
     "rpc": ["https://quicksilver-testnet-rpc.polkachu.com"],

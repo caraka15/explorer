@@ -1,5 +1,5 @@
 {
-    "chain_name": "realio-network",
+    "chain_name": "realio-network-testnet",
     "coingecko": "",
     "api": ["https://realio-api.genznodes.dev"],
     "rpc": ["https://realio-rpc.genznodes.dev"],

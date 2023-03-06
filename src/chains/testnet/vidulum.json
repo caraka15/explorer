@@ -1,5 +1,5 @@
 {
-    "chain_name": "vidulum",
+    "chain_name": "vidulum-testnet",
     "coingecko": "vidulum",
     "api": ["https://testnet-lcd.vidulum.app"],
     "rpc": [],

@@ -1,5 +1,5 @@
 {
-    "chain_name": "iris-network",
+    "chain_name": "iris-network-testnet",
     "api": ["https://lcd.nyancat.irisnet.org"],
     "rpc": ["https://rpc.nyancat.irisnet.org:443","https://rpc.nyancat.irisnet.org:443"],
     "snapshot_provider": "",

@@ -1,5 +1,5 @@
 {
-    "chain_name": "cosmic-horizon",
+    "chain_name": "cosmic-horizon-testnet",
     "api": ["https://coho-api.skynetvalidators.com"],
     "rpc": [],
     "snapshot_provider": "",

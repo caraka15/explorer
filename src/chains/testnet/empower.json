@@ -1,5 +1,5 @@
 {
-  "chain_name": "empower",
+  "chain_name": "empower-testnet",
   "coingecko": "empower",
   "api": ["https://empower-testnet-api.polkachu.com"],
   "rpc": ["https://empower-testnet-rpc.polkachu.com"],

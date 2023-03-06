@@ -1,5 +1,5 @@
 {
-    "chain_name": "SEI",
+    "chain_name": "SEI-testnet",
     "coingecko": "",
     "api": ["https://sei-api.nodeist.net"], 
     "rpc": ["http://157.245.100.103:36377"],

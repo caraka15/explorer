@@ -1,5 +1,5 @@
 {
-  "chain_name": "craft",
+  "chain_name": "craft-testnet",
   "coingecko": "",
   "api": ["https://craft-testnet-api.polkachu.com"],
   "rpc": ["https://craft-testnet-rpc.polkachu.com"],

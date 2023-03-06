@@ -1,5 +1,5 @@
 {
-    "chain_name": "chronic-token",
+    "chain_name": "chronic-testnet",
     "coingecko": "",
     "api": "https://chtd-api.skynetvalidators.com",
     "rpc": [],

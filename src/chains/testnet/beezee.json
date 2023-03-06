@@ -1,5 +1,5 @@
 {
-    "chain_name": "beezee",
+    "chain_name": "beezee-testnet",
     "coingecko": "bzedge",
     "api": ["https://testnet.getbze.com"],
     "rpc": ["https://testnet-rpc.getbze.com:443","https://testnet-rpc.getbze.com:443"],

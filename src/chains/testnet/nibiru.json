@@ -1,5 +1,5 @@
 {
-    "chain_name": "nibiru",
+    "chain_name": "nibiru-testnet",
     "coingecko": "",
     "api": ["https://nibiru-api.genznodes.dev"],
     "rpc": ["https://nibiru-rpc.genznodes.dev"],

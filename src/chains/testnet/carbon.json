@@ -1,5 +1,5 @@
 {
-    "chain_name": "carbon",
+    "chain_name": "carbon-testnet",
     "coingecko": "switcheo",
     "api": "https://test-api.carbon.network",
     "rpc": ["https://test-tm-api.carbon.network"],

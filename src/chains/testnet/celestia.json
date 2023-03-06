@@ -1,5 +1,5 @@
 {
-    "chain_name": "celestia",
+    "chain_name": "celestia-testnet",
     "coingecko": "",
     "api": ["https://celestia-api.genznodes.dev"],
     "rpc": ["https://celestia-rpc.genznodes.dev"],

@@ -1,5 +1,5 @@
 {
-    "chain_name": "loyal",
+    "chain_name": "loyal-testnet",
     "coingecko": "",
     "api": ["https://loyal-api.genznodes.dev"],
     "rpc": ["https://loyal-rpc.genznodes.dev"],

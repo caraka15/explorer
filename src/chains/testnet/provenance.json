@@ -1,5 +1,5 @@
 {
-    "chain_name": "provenance",
+    "chain_name": "provenance-testnet",
     "api": "https://api.test.provenance.io",
     "sdk_version": "0.44.3",
     "addr_prefix": "tp",   

@@ -1,5 +1,5 @@
 {
-    "chain_name": "juno",
+    "chain_name": "juno-testnet",
     "coingecko": "juno-network",
     "api": "https://api.uni.junonetwork.io",
     "sdk_version": "0.42.4",

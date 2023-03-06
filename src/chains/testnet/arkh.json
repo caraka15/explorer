@@ -1,5 +1,5 @@
 {
-    "chain_name": "arkh",
+    "chain_name": "arkh-testnet",
     "api":"https://asc-blockchain-api.arkhadian.com",
     "sdk_version": "0.44.1",
     "addr_prefix": "arkh",

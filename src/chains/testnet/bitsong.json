@@ -1,5 +1,5 @@
 {
-    "chain_name": "bitsong",
+    "chain_name": "bitsong-testnet",
     "coingecko": "bitsong",
     "api": "https://api.testnet.bitsong.network",
     "rpc": ["https://rpc.testnet.bitsong.network:443","https://rpc.testnet.bitsong.network:443"],

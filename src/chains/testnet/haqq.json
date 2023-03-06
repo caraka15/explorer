@@ -1,5 +1,5 @@
 {
-    "chain_name": "haqq",
+    "chain_name": "haqq-testnet",
     "coingecko": "",
     "api": ["https://rest.cosmos.testedge2.haqq.network/"],
     "rpc": ["https://rpc.tm.testedge2.haqq.network/"],

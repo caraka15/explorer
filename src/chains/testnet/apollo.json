@@ -1,5 +1,5 @@
 {
-    "chain_name": "apollo",
+    "chain_name": "apollo-testnet",
     "provider_chain": {
         "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
     },

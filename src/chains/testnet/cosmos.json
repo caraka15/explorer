@@ -1,5 +1,5 @@
 {
-    "chain_name": "cosmos",
+    "chain_name": "cosmos-testnet",
     "api": ["https://vega.api.ping.pub", "https://rest.seed-01.theta-testnet.polypore.xyz", "https://rest.seed-02.theta-testnet.polypore.xyz"],
     "rpc": ["https://rpc.seed-01.theta-testnet.polypore.xyz", "https://rpc.seed-02.theta-testnet.polypore.xyz"],
     "sdk_version": "0.45.1",

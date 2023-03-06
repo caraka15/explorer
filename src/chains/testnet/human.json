@@ -1,5 +1,5 @@
 {
-    "chain_name": "human",
+    "chain_name": "human-testnet",
     "coingecko": "",
     "api": "https://api.human.crxa.my.id",
     "rpc": "https://rpc.human.crxa.my.id",

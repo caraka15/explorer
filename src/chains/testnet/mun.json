@@ -1,5 +1,5 @@
 {
-    "chain_name": "testmun",
+    "chain_name": "testmun-testnet",
     "coingecko": "",
     "api": ["https://mun-api.genznodes.dev"],
     "rpc": ["https://mun-rpc.genznodes.dev"],

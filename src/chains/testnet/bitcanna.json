@@ -1,5 +1,5 @@
 {
-    "chain_name": "bitcanna",
+    "chain_name": "bitcanna-testnet",
     "coingecko": "bitcanna", 
     "api":"https://lcd-testnet.bitcanna.io", 
     "rpc": ["https://rpc-testnet.bitcanna.io:443", "https://lcd-testnet.bitcanna.io:443"],
