@@ -1,5 +1,5 @@
 {
-    "chain_name": "hero-testnet",
+    "chain_name": "hero",
     "provider_chain": {
         "api": "https://rest.provider-sentry-01.goc.earthball.xyz"
     },

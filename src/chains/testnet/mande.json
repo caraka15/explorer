@@ -1,0 +1,17 @@
+{
+    "chain_name": "mande-testnet-1",
+    "coingecko": "",
+    "api": ["https://mande.api.t.stavr.tech"],
+    "rpc": ["https://mande.rpc.t.stavr.tech"],
+    "sdk_version": "v0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "0.1",
+    "addr_prefix": "mande",
+    "logo": "/logos/mande.jpg",
+    "assets": [{
+        "base": "mand",
+        "symbol": "MAND",
+        "exponent": "6",
+        "logo": "/logos/mande.jpg"
+    }]
+}

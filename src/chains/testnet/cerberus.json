@@ -1,5 +1,5 @@
 {
-  "chain_name": "cerberus-testnet",
+  "chain_name": "cerberus",
   "coingecko": "cerberus",
   "api": ["https://cerberus-testnet-api.polkachu.com"],
   "rpc": ["https://cerberus-testnet-rpc.polkachu.com"],

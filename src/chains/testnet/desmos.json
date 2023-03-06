@@ -1,5 +1,5 @@
 {
-    "chain_name": "desmos-testnet",
+    "chain_name": "desmos",
     "coingecko": "",
     "api": ["https://lcd.morpheus.desmos.network"],
     "rpc": ["https://rpc.morpheus.desmos.network:443", "https://rpc.morpheus.desmos.network:443"],

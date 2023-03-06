@@ -1,8 +1,8 @@
 {
-    "chain_name": "human-testnet",
+    "chain_name": "human",
     "coingecko": "",
-    "api": "https://api.human.crxa.my.id",
-    "rpc": "https://rpc.human.crxa.my.id",
+    "api": ["https://api.human-testnet.crxaa.my.id"],
+    "rpc": ["https://rpc.human-testnet.crxaa.my.id"],
     "sdk_version": "v0.46.3",
     "coin_type": "118",
     "min_tx_fee": "200",

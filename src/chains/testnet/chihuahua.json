@@ -1,5 +1,5 @@
 {
-  "chain_name": "chihuahua-testnet",
+  "chain_name": "chihuahua",
   "coingecko": "",
   "api": ["https://chihuahua-testnet-api.polkachu.com"],
   "rpc": ["https://chihuahua-testnet-rpc.polkachu.com"],

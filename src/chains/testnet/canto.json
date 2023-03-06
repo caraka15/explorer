@@ -1,5 +1,5 @@
 {
-  "chain_name": "canto-testnet",
+  "chain_name": "canto",
   "api": ["https://canto-testnet.ansybl.io/api"],
   "rpc": ["https://canto-testnet.ansybl.io/rpc"],
   "snapshot_provider": "",

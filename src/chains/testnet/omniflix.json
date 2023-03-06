@@ -1,5 +1,5 @@
 {
-    "chain_name": "omniflix-testnet",
+    "chain_name": "omniflix",
     "api": "https://api.testnet.omniflix.network",
     "sdk_version": "0.44.0",
     "addr_prefix": "omniflix",

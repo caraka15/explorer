@@ -1,5 +1,5 @@
 {
-  "chain_name": "androma-testnet",
+  "chain_name": "androma",
   "coingecko": "",
   "api": ["https://androma-testnet-api.polkachu.com"],
   "rpc": ["https://androma-testnet-rpc.polkachu.com"],

@@ -1,5 +1,5 @@
 {
-    "chain_name": "commercio.network-testnet",
+    "chain_name": "commercio.network",
     "coingecko": "",
     "api": ["https://lcd-testnet.commercio.network"],
     "rpc": ["https://rpc-testnet.commercio.network:443"],

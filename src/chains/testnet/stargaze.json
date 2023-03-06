@@ -1,5 +1,5 @@
 {
-    "chain_name": "stargaze-testnet",
+    "chain_name": "stargaze",
     "api": ["https://rest.castor-1.stargaze-apis.com"],
     "rpc": ["https://rpc.castor-1.stargaze-apis.com:443", "https://rpc.castor-1.stargaze-apis.com:443"],
     "snapshot_provider": "",
