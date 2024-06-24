@@ -8,6 +8,11 @@
   inset-inline-start: calc(50% - 75px);
 }
 
+.logos {
+  width: 150px;
+  height: 150px;
+}
+
 .pre-loading {
   position: absolute;
   box-sizing: border-box;
