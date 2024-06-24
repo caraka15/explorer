@@ -120,7 +120,35 @@ function confirm() {
         </div>
         <!-- foot -->
         <div class="mt-6">
-          <button class="w-full btn bg-orange-500" @click="confirm">
+          <button class="w-full inline-flex 
+    flex-shrink-0 
+    cursor-pointer 
+    select-none 
+    flex-wrap 
+    items-center 
+    justify-center 
+    border-transparent 
+    text-center 
+    transition-colors 
+    transition-shadow 
+    transition-transform 
+    duration-200 
+    ease-in-out 
+    rounded 
+    h-12 
+    px-4 
+    min-h-12 
+    text-sm 
+    leading-tight 
+    gap-2 
+    font-semibold 
+    no-underline 
+    border 
+    animate-button-pop 
+    uppercase
+    bg-b2 
+    text-bc 
+    outline-bc bg-orange-500" @click="confirm">
             Confirm
           </button>
         </div>

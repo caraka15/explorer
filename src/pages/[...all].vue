@@ -1,3 +1,4 @@
+
 <script setup lang="ts">
 import misc404 from '@/assets/images/pages/404.png';
 </script>
