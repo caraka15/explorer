@@ -18,7 +18,8 @@ export default defineConfig({
     vue({
       template: {
         compilerOptions: {
-          isCustomElement: (tag) => ['ping-connect-wallet', 'ping-token-convert', 'ping-tx-dialog'].includes(tag),
+          isCustomElement: (tag) =>
+            ['crxanode-connect-wallet', 'crxanode-token-convert', 'crxanode-tx-dialog'].includes(tag),
         },
       },
     }),

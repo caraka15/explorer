@@ -37,10 +37,10 @@ cp -r ./dist/* <ROOT_OF_WEB_SERVER>
 3. Running with docker
 ```sh
 ./docker.sh
-docker run -d -p 8088:80 ping.pub/dashboard
+docker run -d -p 8088:80 crxanode/dashboard
 ```
 
-# Enable LCD for Ping.pub (do this on the config for your chain)
+# Enable LCD for crxanode (do this on the config for your chain)
 
 1. Set `enable = true` in `./config/app.toml`
 ```
@@ -67,7 +67,7 @@ max-open-connections = 1000
 
 ```
 server {
-    server_name juno.api.ping.pub;
+    server_name juno.api.crxanode.me;
     listen 443;
     location / {
         add_header Access-Control-Allow-Origin *;

@@ -142,7 +142,7 @@ const list = computed(() => {
   } else if (tab.value === 'featured') {
     const endpoint = chainStore.current?.endpoints?.rest?.map((x) => x.provider);
     if (endpoint) {
-      endpoint.push('ping');
+      endpoint.push('crxanode');
       return staking.validators
         .filter((x) => isFeatured(endpoint.filter(Boolean) as string[], x.description))
         .map((x, i) => ({ v: x, rank: 'primary', logo: logo(x.description.identity) }));
