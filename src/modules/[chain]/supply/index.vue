@@ -1,12 +1,7 @@
 <script lang="ts" setup>
 import { ref } from '@vue/reactivity';
 import { useBlockchain, useFormatter } from '@/stores';
-import {
-  PageRequest,
-  type Pagination,
-  type Coin,
-  type DenomMetadata,
-} from '@/types';
+import { PageRequest, type Pagination, type Coin, type DenomMetadata } from '@/types';
 import { onMounted } from 'vue';
 import type { Asset } from '@/types/chaindata';
 import PaginationBar from '@/components/PaginationBar.vue';
@@ -65,7 +60,7 @@ function pageload(p: number) {
           amount: format.tokenAmountNumber({ amount: coin.amount, denom: denom }).toString(),
           base: asset.base || coin.denom,
           info: asset.display || coin.denom,
-          logo: asset?.logo_URIs?.svg || asset?.logo_URIs?.png || '/logo.svg',
+          logo: asset?.logo_URIs?.svg || asset?.logo_URIs?.png || 'https://crxanode.me/img/logo.png',
         };
       })
     );
@@ -95,11 +90,7 @@ function pageload(p: number) {
         <td>{{ item.base }}</td>
       </tr>
     </table>
-    <PaginationBar
-      :limit="pageRequest.limit"
-      :total="pageResponse.total"
-      :callback="pageload"
-    />
+    <PaginationBar :limit="pageRequest.limit" :total="pageResponse.total" :callback="pageload" />
   </div>
 </template>
 

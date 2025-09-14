@@ -5,9 +5,9 @@ const route = useRoute();
 
 const aa = computed(() => {
   const hostname = location.hostname;
-  if (hostname === 'testnet.ping.pub') {
+  if (hostname === 'testnet.crxanode.me') {
     return '2396360';
-  } else if (hostname === 'ping.pub') {
+  } else if (hostname === 'crxanode.me') {
     return '2395639';
   } else {
     return '2396360';
