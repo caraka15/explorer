@@ -47,25 +47,15 @@ const params = computed(() => {
 
 <template>
   <div class="dropdown dropdown-hover dropdown-end">
-    <label
-      tabindex="0"
-      class="btn btn-sm btn-primary m-1 lowercase truncate !inline-flex text-xs md:!text-sm"
-    >
+    <label tabindex="0" class="btn btn-sm btn-primary m-1 lowercase truncate !inline-flex text-xs md:!text-sm">
       <Icon icon="mdi:wallet" />
       <span class="ml-1 hidden md:block"> {{ walletStore.shortAddress || 'Wallet' }}</span>
     </label>
-    <div
-      tabindex="0"
-      class="dropdown-content menu shadow p-2 bg-base-100 rounded w-52 md:!w-64 overflow-auto"
-    >
-      <label
-        v-if="!walletStore?.currentAddress"
-        for="PingConnectWallet"
-        class="btn btn-sm btn-primary"
-      >
+    <div tabindex="0" class="dropdown-content menu shadow p-2 bg-base-100 rounded w-52 md:!w-64 overflow-auto">
+      <label v-if="!walletStore?.currentAddress" for="crxanodeConnectWallet" class="btn btn-sm btn-primary">
         <Icon icon="mdi:wallet" /><span class="ml-1 block">Connect Wallet</span>
       </label>
-      <div class="px-2 mb-1 text-gray-500 dark:text-gray-400 font-semibold">
+      <div class="px-2 mb-1 text-primary font-semibold">
         {{ walletStore.connectedWallet?.wallet }}
       </div>
       <div>
@@ -79,18 +69,10 @@ const params = computed(() => {
         </a>
         <div class="divider mt-1 mb-1"></div>
         <RouterLink to="/wallet/accounts">
-          <div
-            class="block py-2 px-2 hover:!bg-gray-100 rounded cursor-pointer"
-          >
-            Accounts
-          </div>
+          <div class="block py-2 px-2 hover:!bg-gray-100 rounded cursor-pointer">Accounts</div>
         </RouterLink>
         <RouterLink to="/wallet/portfolio">
-          <div
-            class="block py-2 px-2 hover:!bg-gray-100 rounded cursor-pointer"
-          >
-            Portfolio
-          </div>
+          <div class="block py-2 px-2 hover:!bg-gray-100 rounded cursor-pointer">Portfolio</div>
         </RouterLink>
         <div v-if="walletStore.currentAddress" class="divider mt-1 mb-1"></div>
         <a
@@ -117,7 +99,7 @@ const params = computed(() => {
     </div>
   </div>
   <Teleport to="body">
-    <ping-connect-wallet
+    <crxanode-connect-wallet
       :chain-id="baseStore.currentChainId || 'cosmoshub-4'"
       :hd-path="chainStore.defaultHDPath"
       :addr-prefix="chainStore.current?.bech32Prefix || 'cosmos'"
@@ -129,8 +111,8 @@ const params = computed(() => {
 </template>
 
 <style>
-.ping-connect-btn,
-.ping-connect-dropdown {
+.crxanode-connect-btn,
+.crxanode-connect-dropdown {
   display: none !important;
 }
 </style>

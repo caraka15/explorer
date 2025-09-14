@@ -54,8 +54,8 @@ const handleLangChange = (lang: string) => {
 
 <template>
   <div class="dropdown" :class="currentLang === 'ar' ? 'dropdown-right' : 'dropdown-bottom dropdown-end'">
-    <label tabindex="0" class="btn btn-ghost btn-circle btn-sm mx-1">
-      <Icon icon="mdi-translate" class="text-2xl text-gray-500 dark:text-gray-400" />
+    <label tabindex="0" class="btn btn-ghost btn-circle btn-sm mx-1 text-primary">
+      <Icon icon="mdi-translate" class="text-2xl" />
     </label>
     <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-40">
       <li v-for="lang in i18nLangs" :key="lang.i18nLang">
