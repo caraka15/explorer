@@ -7,12 +7,12 @@
       "provider": "8ball.info"
     },
     {
-      "address": "https://api-8ball.nodeist.net",
-      "provider": "nodeist.net"
-    },
-    {
       "address": "https://api.8ball.nodestake.top",
       "provider": "nodestake.top"
+    },
+    {
+      "address": "https://api-8ball.nodeist.net",
+      "provider": "nodeist.net"
     }
   ],
   "rpc": [
@@ -21,12 +21,12 @@
       "provider": "8ball.info"
     },
     {
-      "address": "https://rpc-8ball.nodeist.net",
-      "provider": "nodeist.net"
-    },
-    {
       "address": "https://rpc.8ball.nodestake.top",
       "provider": "nodestake.top"
+    },
+    {
+      "address": "https://rpc-8ball.nodeist.net",
+      "provider": "nodeist.net"
     }
   ],
   "snapshot_provider": "",
