@@ -2,17 +2,40 @@
   "chain_name": "osmosis",
   "coingecko": "osmosis",
   "api": [
-    "https://lcd.osmosis.zone",
-    "https://api-osmosis-ia.cosmosia.notional.ventures",
-    "https://osmosis-api.polkachu.com",
-    "https://lcd-osmosis.blockapsis.com"
+    {
+      "provider": "Osmosis",
+      "address": "https://lcd.osmosis.zone"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://osmosis-api.polkachu.com"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://osmosis-rest.publicnode.com"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://lcd-osmosis.imperator.co"
+    }
   ],
   "rpc": [
-    "https://rpc.osmosis.zone",
-    "https://rpc-osmosis-ia.cosmosia.notional.ventures:443",
-    "https://osmosis-rpc.polkachu.com:443",
-    "https://osmosis.validator.network:443",
-    "https://rpc-osmosis.blockapsis.com:443"
+    {
+      "provider": "Osmosis",
+      "address": "https://rpc.osmosis.zone"
+    },
+    {
+      "provider": "Polkachu",
+      "address": "https://osmosis-rpc.polkachu.com:443"
+    },
+    {
+      "provider": "Allnodes",
+      "address": "https://osmosis-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "Imperator",
+      "address": "https://rpc-osmosis.imperator.co"
+    }
   ],
   "snapshot_provider": "",
   "sdk_version": "0.46.1",
@@ -42,6 +65,20 @@
       "exponent": "6",
       "coingecko_id": "somm",
       "logo": ""
+    },
+    {
+      "base": "factory/osmo1vdvnznwg597qngrq9mnfcfk0am9jdc9y446jewhcqdreqz4r75xq5j5zvy/ymos",
+      "symbol": "YMOS",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/ymos.png"
+    },
+    {
+      "base": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
+      "symbol": "CULT",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/cult.png"
     }
   ]
 }
